@@ -1,0 +1,20 @@
+body { margin:0; font-family: Arial, sans-serif; }
+.header { background:#1520f1; color:white; padding:20px; text-align:center; }
+.navbar { background:#080404; overflow:hidden; }
+.navbar a {
+  float:left; color:white; text-decoration:none; padding:14px 20px;
+}
+.navbar a:hover { background:#ddd; color:rgb(0, 0, 0); }
+
+.sidebar {
+  float:left; width:25%; background:#f4f4f4;
+  padding:20px; box-sizing:border-box;
+}
+.content {
+  float:right; width:70%; background:#fff;
+  padding:20px; box-sizing:border-box;
+}
+.footer {
+  clear:both; background:#333; color:white;
+  text-align:center; padding:10px;
+}
